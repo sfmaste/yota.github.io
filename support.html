@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMart</title>
+    <link rel="stylesheet" href="news.css">
+    <link rel="shortcut icon" href="image/icS.svg" type="image/x-icon">
+</head>
+<style>
+@font-face {
+    font-family: "Comfortaa";
+    src: url(font/Comfortaa.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa";
+}
+body {
+    background-color: #fff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.logo {
+    align-items: center;
+    display: flex;
+    gap: 2px;
+    font-size: 28px;
+    cursor: pointer;
+}
+.logo_a {
+    text-decoration: none;
+    color:#000;
+}
+.lg_img {
+    max-width: 32px;
+    max-height: 32px;
+}
+.menu {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+li {
+    list-style-type: none;
+}
+.point {
+    color: #000;
+    text-decoration: none;
+}
+.point:hover {
+    background-color: #f1f0f0;
+    padding: 4px;
+    border-radius: 10px;
+}
+.icon_prof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.profile {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 10px 6px;
+    border-radius: 10px;
+}
+.profile:hover {
+    background-color: #f1f0f0;
+}
+/* intro */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    gap: 60px;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h1 {
+    font-size: 38px;
+}
+.info_sup {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.info_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 372px;
+}
+.text_info {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.p1 {
+    font-weight: 700;
+    font-size: 20px;
+}
+.p2 {
+    font-size: 16px;
+}
+.p2_b {
+    font-weight: 900;
+}
+/* footer */
+footer {
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.menu_footer {
+    display: flex;
+    justify-content: space-between;
+}
+.level {
+    display: flex;
+    gap: 50px;
+}
+.ft_point {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+}
+.ft_point:hover {
+    background-color: #f1f0f0;
+    border-radius: 10px;
+    padding: 6px;
+}
+.logo_ft {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.logo_icon {
+    max-width: 36px;
+
+}
+.p {
+    text-align: center;
+}
+.icon_network {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+</style>
+<body>
+    <header>
+        <div class="logo"><a href="index.html" class="logo_a"><img src="image/icS.svg" class="lg_img">TechMart</a></div>
+        <div class="menu">
+            <li><a href="mobile.html" class="point">Мобильная связь</a></li>
+            <li><a href="device.html" class="point">Устройства</a></li>
+            <li><a href="news.html" class="point">Новости</a></li>
+            <li><a href="support.html" class="point">Помощь</a></li>
+            <li><a href="brend.html" class="point">О бренде</a></li>
+        </div>
+        <div class="icon_prof">
+            <div class="ic_point"><a href=""><img src="image/Search.svg" alt="search"></a></div>
+            <div class="ic_point"><a href=""><img src="image/Shopping Bag.svg" alt="search"></a></div>
+            <div class="ic_point"><a href="" class="profile">Личный кабинет</a></div>
+        </div>
+    </header>
+    <section>
+        <div class="heading">
+         <h1>Служба поддержки TechMart</h1>
+        <hr>    
+        </div>
+       <div class="info_sup">
+        <div class="info_1">
+            <div class="img_info"><img src="image/people.svg" alt="info"></div>
+        
+        <div class="text_info">
+            <div class="p1">Горячая линия</div>
+            <div class="p2">8 (9990) 90 90 90</div>
+            <div class="p2">Ежедневно с 10:00 - 18:00 по МСК</div>
+        </div>
+        </div>
+        <div class="info_1">
+            <div class="img_info"><img src="image/people.svg" alt="info"></div>
+        
+        <div class="text_info">
+            <div class="p1">ТechMart сервис</div>
+            <div class="p2">Пожалуйста, если возникли проблемы, то свяжитесь с нашими специалистами.</div>
+            <div class="p2_b">tech.mart@gmail.com</div>
+        </div>
+        </div>
+       </div>
+    </section>
+    <footer>
+        <div class="menu_footer">
+            <div class="level">
+                <li><a href="" class="ft_point">гаджеты</a></li>
+                <li><a href="" class="ft_point">новости</a></li>
+                <li><a href="" class="ft_point">SIM-карты</a></li>
+            </div>
+            <div class="logo_ft"><img src="image/icS.svg" class="logo_icon">TechMart</div>
+            <div class="level">
+                <li><a href="" class="ft_point">помощь</a></li>
+                <li><a href="" class="ft_point">о бренде</a></li>
+                <li><a href="" class="ft_point">личный кабинет</a></li>
+            </div>
+        </div>
+        <hr>
+        <div class="p">© Photo, Inc. 2019. We love our users!</div>
+        <div class="icon_network">
+            <li><img src="image/VK Circled.svg" alt=""></li>
+            <li><img src="image/Twitter.svg" alt=""></li>
+            <li><img src="image/WhatsApp.svg" alt=""></li>
+            <li><img src="image/Facebook.svg" alt=""></li>
+        </div>
+    </footer>
+</body>
+</html>
